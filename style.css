@@ -1,6 +1,18 @@
+/*${ctaSelector}:hover*/
+
 header{
-    background-color: #0A192F;
+    margin: 8px;
 }
+nav{
+    border: solid 2px #0A192F;
+    background-color: #0A192F;
+    margin: 10px;
+}
+
+body{
+    margin: 0;
+}
+
 nav ul{
     display: flex;
     gap: 16px;
@@ -29,16 +41,50 @@ nav ul{
  }
  
  .bouton.primaire{
-    background: #ff6b6b;
+    background: linear-gradient(135deg, #FF6B6B, #2D2D2D);
     color: white;
+    border: solid 1px #0A192F;
  }
 
+main a{
+    text-decoration: none;
+    background-color: #ff6b6b;
+}
 
+.bloc4{
+    border: solid 1px #0A192F;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+.bloc3{
+    border: solid 1px #0A192F;
+    display: flex;
+}
 
+.bloc2{
+    border: solid 1px #0A192F;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.bloc1{
+    border: solid 1px #0A192F;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ina{
+    height: 36px;
+    width: 36px;
+}
 
 footer{
     text-align: center;
     background-color: #2D2D2D;
     color: #F8F9FA;
+    border: solid 2px #0A192F;
 }
