@@ -1,0 +1,44 @@
+header{
+    background-color: #0A192F;
+}
+nav ul{
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ .lien{
+    color: #F8F9FA;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+
+ .bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 8px 16px;
+    /* width: fit-content; */
+    height: fit-content;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+ 
+ .bouton.primaire{
+    background: #ff6b6b;
+    color: white;
+ }
+
+
+
+
+
+footer{
+    text-align: center;
+    background-color: #2D2D2D;
+    color: #F8F9FA;
+}
