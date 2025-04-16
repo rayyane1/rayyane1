@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+nav{
+    border: solid 2px #0A192F;
+    background-color: #0A192F;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color: #F8F9FA;
+}
+
+.bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+
+.bouton.secondaire{
+    background: linear-gradient(135deg, #3A86FF, #FF3CAC);
+    color: white;
+    font-size: larger;
+    border: solid 1px #0A192F;
+    margin-top: 5%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+ }
+
+#retour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#retour a {
+    margin-top: 0;
+}
+footer{
+    text-align: center;
+    background-color: #2D2D2D;
+    color: #F8F9FA;
+    border: solid 2px #0A192F;
+}
+

@@ -3,8 +3,16 @@ body{
     margin: 0;
 }
 
+nav{
+    border: solid 2px #0A192F;
+    background-color: #0A192F;
+    padding: 20px;
+}
+
 h2{
     font-size: xx-large;
+    text-align: center;
+    color: #F8F9FA;
 }
 
 .bloc2{
@@ -56,7 +64,7 @@ h2{
     border-radius: 8px;
     text-decoration: none;
     padding: 8px 16px;
-    /* width: fit-content; */
+    width: fit-content;
     height: fit-content;
     font-weight: 500;
     transition: all .3s ease-in-out;
@@ -68,6 +76,29 @@ h2{
     border: solid 1px #0A192F;
     margin-top: 5%;
  }
+
+
+ .bouton.secondaire{
+    background: linear-gradient(135deg, #3A86FF, #FF3CAC);
+    color: white;
+    font-size: larger;
+    border: solid 1px #0A192F;
+    margin-top: 5%;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+ }
+
+#retour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#retour a {
+    margin-top: 0;
+}
 
  footer{
     text-align: center;
