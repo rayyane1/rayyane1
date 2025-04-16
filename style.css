@@ -10,6 +10,10 @@ body{
     margin: 0;
 }
 
+h2{
+    font-size: xx-large;
+}
+
 nav ul{
     display: flex;
     gap: 16px;
@@ -17,6 +21,11 @@ nav ul{
     padding: 0;
     margin: 0;
  }
+
+ li :hover{
+    background: linear-gradient(135deg, #3A86FF, #FF3CAC)
+ }
+
  .lien{
     color: #F8F9FA;
     text-decoration: none;
@@ -40,6 +49,13 @@ nav ul{
  .bouton.primaire{
     background: linear-gradient(135deg, #FF6B6B, #2D2D2D);
     color: white;
+    border: solid 1px #0A192F;
+    margin-top: 5%;
+ }
+ .bouton.secondaire{
+    background: linear-gradient(135deg, #3A86FF, #FF3CAC);
+    color: white;
+    font-size: larger;
     border: solid 1px #0A192F;
     margin-top: 5%;
  }
@@ -75,15 +91,29 @@ main a{
     padding: 20px;
     border: solid 1px #0A192F;
     display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    gap: 50px;
     align-items: flex-end;
-    justify-content: space-evenly;
 }
 
 .bloc3{
     padding: 20px;
     border: solid 1px #0A192F;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-cont{
+    display: flex;
+    gap: 70px;
 }
 
 .bloc2{
@@ -106,13 +136,35 @@ main a{
 }
 
 .bloc1{
+    filter: brightness(0.6);
+    background-image: url("backroundBloc1.jpg");
+    background-size: cover;
+    color: #F8F9FA;
     padding: 20px;
     border: solid 1px #0A192F;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+.bloc1::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* noir semi-transparent */
+    z-index: 1;
+  }
+  
+  .bloc1 > * {
+    position: relative;
+    z-index: 2; /* pour que ton contenu soit au-dessus de l'overlay */
+  }
 
+.bloc1 p{
+    font-size: larger;
+    color: #F8F9FA;
+    font-family: sans-serif;
+    font-style: italic bold;
+}
 
 .ina{
     height: 36px;
