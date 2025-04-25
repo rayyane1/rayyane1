@@ -4,10 +4,30 @@ body{
 }
 
 nav{
-    border: solid 2px #0A192F;
-    background-color: #0A192F;
-    padding: 20px;
+    border: solid 2px black;
+    background-color: black;
+    padding: 0;
 }
+
+nav ul{
+    background-color: #0A192F;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 22px;
+    margin: 0;
+ }
+
+ .lien{
+    color: #F8F9FA;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+ }
+
+ li :hover{
+    background: linear-gradient(135deg, #3A86FF, #FF3CAC)
+ }
 
 h2{
     font-size: xx-large;
