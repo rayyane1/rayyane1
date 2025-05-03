@@ -28,10 +28,16 @@ nav ul{
     background: linear-gradient(135deg, #3A86FF, #FF3CAC)
  }
 
-h2{
+nav h2{
     text-align: center;
     font-size: xx-large;
     color: #F8F9FA;
+}
+h3{
+    text-align: center;
+}
+main{
+    margin: 10px;
 }
 
 .bouton{
