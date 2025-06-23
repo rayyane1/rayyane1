@@ -74,6 +74,10 @@ main{
 #retour a {
     margin-top: 0;
 }
+.p{
+    display: flex;
+    gap: 50px;
+}
 footer{
     text-align: center;
     background-color: #2D2D2D;
