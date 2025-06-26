@@ -74,9 +74,22 @@ main{
 #retour a {
     margin-top: 0;
 }
+#p{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
 .p{
     display: flex;
     gap: 50px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    padding: 52px;
+}
+#intro p{
+    padding: 16px;
 }
 footer{
     text-align: center;
