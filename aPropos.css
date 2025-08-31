@@ -74,15 +74,7 @@ main{
 #retour a {
     margin-top: 0;
 }
-#p{
-    padding-left: 100px;
-    display: flex;
-    flex-direction: column;
-}
-.p{
-    display: flex;
-    gap: 50px;
-}
+
 #intro{
     display: flex;
     flex-direction: column;
@@ -98,3 +90,17 @@ footer{
     border: solid 2px #0A192F;
 }
 
+.formations {
+      display: grid;
+      grid-template-columns: 200px 1fr; /* Colonne gauche fixe, droite prend le reste */
+      /*gap: 15px 30px;  espace vertical et horizontal */
+       column-gap: 30px; /* espace entre colonnes */
+       row-gap: 20px;    /* espace entre lignes */
+      align-items: start;
+      margin: 100px;
+    }
+
+    .date {
+      font-weight: bold;
+
+    }
